@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">HIT Assistant</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings"> Налаштування </string>
+    <string name="menuinfo"> Щоб перейти до головного меню\nнатисність \n або проведіть вліво по екрану </string>
+    <string name="title_activity_activity_about_programm"> Інформація </string>
+    <string name="title_activity_calculator"> Калькулятор </string>
+    <string name="title_activity_converter"> Конвертер величин</string>
+    <string name="title_activity_calendar"> Календар </string>
+    <string name="title_activity_notepad"> Блокнот </string>
+    <string name="title_activity_light"> Ліхтарик </string>
+    <string name="title_activity_test">test</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_open">Відкрити</string>
+    <string name="action_save">Зберегти</string>
+    <string name="action_info">Інфо</string>
+    <string name="pref_openmode">Режим відкриття</string>
+    <string name="pref_color">Колір</string>
+    <string name="pref_color_black">Чорний колір</string>
+    <string name="pref_color_red">Червоний колір</string>
+    <string name="pref_color_green">Зелений колір</string>
+    <string name="pref_color_blue">Синій колір</string>
+    <string name="pref_size">Розмір</string>
+    <string name="pref_style">Стиль</string>
+    <string name="pref_style_regular">Нормальний</string>
+    <string name="pref_style_bold">Напівжирний</string>
+    <string name="pref_style_italic">Курсив</string>
+    <string name="title_activity_settings">Налаштування</string>
+    <string name="weight">Вага</string>
+    <string name="lenght">Довжина</string>
+    <string name="temp">Температ</string>
+    <string name="press">Тиск</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_user_help"> Довідник користувача</string>
+
+    <string name="large_text">\n
+          &#160; Програма HIT ASSISTANT це багатофункціональний android-додаток, до можливостей якого входять:\n\n
+        &#8226; калькулятор з базовими функціями, \n
+        &#8226; конвертер величин,\n
+        &#8226; зручний календар,\n
+        &#8226; ліхтарик,\n
+        &#8226; блокнот.\n\n
+
+        <b>&#8226;Калькулятор&#8226;</b>\n
+    "Калькулятор представляє собою простий модуль, призначений для виконання арифметичних обчислень."\n\n
+        <b>&#8226;Конвертер&#8226;</b>\n
+    "Конвертер величин дозоволяє маніпулювати одиницями ваги, довжини, тиску, швидкості та температури.
+        Користувачу варто обрати лише з якої величини, в яку величину конвертувати та ввести певне число."\n\n
+        <b>&#8226;Календар&#8226;</b>\n
+    "Календар надає можливість переглядати дні у потижневому відображенні. Навігація здійснюється прокруткою згори-вниз.
+        Календар також відображає поточну дату та системний час."\n\n
+        <b>&#8226;Ліхтарик&#8226;</b>\n
+        "Ліхтарик вмикає світлодіод смартфона. Якщо в смартфоні відсутня камера або світлодіод - виводиться відповідне повідомлення."\n\n
+        <b>&#8226;Блокнот&#8226;</b>\n
+        "Блокнот в HIT Assistant представляє собою простий текстовий редактор. Користувач записує необхідну інформацію в єдиний текстовий файл
+        і має можливість обирати тип і розмір шрифту. Файл зберігається в пам'яті смартфона. Користувач також може як зберігати, так і відкривати
+        заздалегідь збережений текстовий файл."\n\n
+           <b>&#8226;Органайзер&#8226;</b>\n
+        "Органайзер надає можливість користувачу впорядковувати побутові задачі у вигляді списку завдань, та видаляти пункти при їх виконанні.
+        Видалення здійснюється кнопкою ЗРОБЛЕНО. Порожні пункти не додаються. "\n\n\n"
+        "В HIT Assistant реалізована підтримка таких елементів графічного інтерфейсу, як Navigation Drawer, Floating Action Button,
+        Navigation Bar та багато інших компонентів, які значно спрощують процес користування програмою та покращують її візуальний вигляд."
+        \n\n&#169; HIT Assistant 2015 by Kondratenko M.S. \n All rights reserved ;)"
+
+    </string>
+    <string name="help"> Help In Touch Assistant. \n Ваш кишеньковий помічник. </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dovidka_content">Dovidka_content</string>
+    <string name="title_activity_maps">Навігатор</string>
+    <string name="title_activity_navigation">Навігатор</string>
+    <string name="title_activity_app_intro">AppIntro</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_welcome_screen">WelcomeScreen</string>
+    <string name="title_activity_temperature">Temperature</string>
+    <string name="title_activity_my_temp">My_temp</string>
+    <string name="title_activity_conv_temp">Температура</string>
+    <string name="title_activity_conv_lenght">Довжина</string>
+    <string name="title_activity_conv_weight">Вага</string>
+    <string name="title_activity_conv_press">Тиск</string>
+    <string name="title_activity_conv_speed">Швидкість</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_organizer">Органайзер</string>
+</resources>

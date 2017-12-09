@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temp_units">
+        <item> Цельсій </item>
+        <item> Фаренгейт </item>
+        <item> Кельвін </item>
+    </string-array>
+
+    <string-array name="lenght_units">
+        <item>Кілометр</item>
+        <item>Миля</item>
+        <item>Метр</item>
+        <item>Фут</item>
+        <item>Дюйм</item>
+        <item>Сантиметр</item>
+    </string-array>
+
+    <string-array name="weight_units">
+        <item>Кілограм</item>
+        <item>Грам</item>
+        <item>Фунт</item>
+        <item>Карат</item>
+        <item>Унція</item>
+    </string-array>
+
+    <string-array name="press_units">
+        <item>Паскаль</item>
+        <item>Атмосфера</item>
+        <item>Бар</item>
+        <item>Торр</item>
+    </string-array>
+    <string-array name="speed_units">
+        <item>Метри за секунду</item>
+        <item>Кілометри за годину</item>
+        <item>Милі за годину</item>
+    </string-array>
+
+</resources>

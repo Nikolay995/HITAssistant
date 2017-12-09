@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Зміст меню налаштувань блокнота-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="@string/pref_openmode"
+        android:summary="Відкривати файл при запуску Блокноту"
+        android:title="Швидкий старт" />
+    <EditTextPreference
+        android:defaultValue="14"
+        android:dialogTitle="Введіть розмір шрифту:"
+        android:key="@string/pref_size"
+        android:summary="Встановлює новий розмір шрифту"
+        android:title="Розмір шрифту" />
+    <ListPreference
+        android:key="@string/pref_style"
+        android:title="Стиль шрифту"
+        android:summary="Встановлює стиль шрифту"
+        android:defaultValue="1"
+        android:entries="@array/text_style"
+        android:entryValues="@array/text_style"
+        android:dialogTitle="Оберіть стиль шрифту:" />
+</PreferenceScreen>

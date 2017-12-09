@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Функції">
+        <menu>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/calc"
+            android:icon="@drawable/ic_action_calculator"
+            android:title="Калькулятор" />
+        <item android:id="@+id/conv"
+            android:icon="@drawable/ic_action_reload"
+            android:title="Конвертер" />
+        <item android:id="@+id/light" android:icon="@drawable/ic_action_bulb"
+            android:title="Ліхтарик" />
+        <item android:id="@+id/calend" android:icon="@drawable/calendar2"
+            android:title="Календар" />
+        <item android:id="@+id/note" android:icon="@drawable/ic_action_document"
+            android:title="Блокнот" />
+        <item android:id="@+id/todo" android:title="Органайзер"
+            android:icon="@drawable/done"/>
+    </group>
+        </menu>
+    </item>
+    <item android:title="Інформація">
+        <menu>
+            <item android:id="@+id/usergiude" android:icon="@drawable/ic_action_user"
+                android:title="Довідка" />
+            <item android:id="@+id/aboutprog" android:icon="@drawable/ic_action_info"
+                android:title="Про програму" />
+            <item android:id="@+id/quit" android:icon="@drawable/quit1"
+                android:title="Вихід" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_converter" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.kondratenko.hitassistant.Converter">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            tools:showIn="@layout/activity_converter"
+            tools:context="com.kondratenko.hitassistant.Converter"
+            android:background="#92c330"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:onClick="mytemp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"     >
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/person_photo"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/temp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name"
+                        android:layout_toRightOf="@+id/person_photo"
+                        android:layout_alignParentTop="true"
+                        android:textSize="30sp"
+                        android:text="Температура"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age"
+                        android:layout_toRightOf="@+id/person_photo"
+                        android:layout_below="@+id/person_name"
+                        android:text="Доступні величини: Кельвін, градус Цельсія, градус Фаренгейта"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:nestedScrollingEnabled="false"
+                    android:onClick="mylenght">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/person_photo1"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/dlina"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name1"
+                        android:layout_toRightOf="@+id/person_photo1"
+                        android:layout_alignParentTop="true"
+                        android:textSize="30sp"
+                        android:text="Довжина"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age1"
+                        android:layout_toRightOf="@+id/person_photo1"
+                        android:layout_below="@+id/person_name1"
+                        android:text="Доступні величини: миля, метр, фут, дюйм, сантиметр"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:onClick="myweight">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/person_photo2"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/balance"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name3"
+                        android:textSize="30sp"
+                        android:text="Вага"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/person_photo2" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age2"
+                        android:layout_toRightOf="@+id/person_photo2"
+                        android:layout_below="@+id/person_name3"
+                        android:text="Доступні величини: кілограм, грам, фунт, карат, унція"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:onClick="mypress">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/person_photo3"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/cloud"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name4"
+                        android:layout_toRightOf="@+id/person_photo3"
+                        android:layout_alignParentTop="true"
+                        android:textSize="30sp"
+                        android:text="Тиск"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age3"
+                        android:layout_toRightOf="@+id/person_photo3"
+                        android:layout_below="@+id/person_name4"
+                        android:text="Доступні величини: паскаль, бар, атмосфера, торр"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:onClick="myspeed">
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/person_photo5"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/speed"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_name6"
+                        android:layout_toRightOf="@+id/person_photo5"
+                        android:layout_alignParentTop="true"
+                        android:textSize="30sp"
+                        android:text="Швидкість"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/person_age5"
+                        android:layout_toRightOf="@+id/person_photo5"
+                        android:layout_below="@+id/person_name6"
+                        android:text="Доступні величини: метр за секудну, миля за годину, кілометр за годину"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

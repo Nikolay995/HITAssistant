@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_user_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kondratenko.hitassistant.UserHelp"
+    android:background="#727272">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:id="@+id/scroll">
+        <LinearLayout
+            android:id="@+id/linLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="#4caf50">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100pt"
+                android:src="@drawable/help1"/>
+            <TextView
+                android:layout_width="345dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="26dp"
+                android:text="@string/help"/>
+            <TextView android:text="@string/large_text"
+                android:layout_height="1160dp"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center" />
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/icongreen"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.v4.widget.NestedScrollView>
